@@ -1,0 +1,19 @@
+aside {
+    width: 300px;
+}
+
+
+section {
+    font-family: "Lucida Grande";
+    font-weight: bold;
+}
+
+
+body {
+    background: red;
+    color: #ffffff;
+}
+
+section {
+    background: rgba(0, 0, 0, 0.7);
+}

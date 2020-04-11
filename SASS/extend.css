@@ -1,0 +1,21 @@
+.msg,
+.msg-error,
+.msg-alert {
+    border: 1px #f00;
+    background-color: #fdd;
+}
+
+.msg-error {
+    border-color: #ff0000de;
+    color: #ff0000de;
+}
+
+.msg-alert {
+    border-color: #ff8e00de;
+    color: #ff8e00de;
+}
+
+a:hover,
+.hoverlink {
+    text-decoration: underline;
+}

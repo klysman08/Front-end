@@ -1,0 +1,18 @@
+/* É possível usar variáveis ​​Sass em seletores e nomes de propriedade 
+com o recurso de interpolação. A interpolação é um recurso que está presente em várias linguagens 
+de programação e permite que valores sejam encaixados dentro de outros valores. */
+
+$name: destaque;
+$attr: border;
+
+
+p.#{$name} {
+    #{$attr}-color: blue;
+}
+
+
+p {
+    $font-size: 12px;
+    $line-height: 30px;
+    font: #{$font-size}/#{$line-height};
+}

@@ -1,0 +1,63 @@
+/* Um dos recursos mais importantes do Sass é a criação de variáveis,
+as variáveis permitem armazenar informações para reutilizar em todo o estilo. Variáveis Sass começam com cifrão e são definidas como propriedades CSS: */
+
+$width-rem: 3.5rem;
+$width-px: 300px;
+$width: 300;
+
+aside {
+    width: $width-px;
+}
+
+$font: "Lucida Grande";
+$weight: bold;
+
+
+section {
+    font-family: $font;
+    font-weight: $weight;
+}
+
+$bg: red;
+$bg-section: rgba(0, 0, 0, 0.7);
+$font-color: #ffffff;
+
+body {
+    background: $bg;
+    color: $font-color;
+}
+
+section {
+    background: $bg-section;
+}
+
+
+/* Listas */
+/* As listas são a forma como Sass representa os valores de algumas declarações CSS como margin: 10px 15px 0 0 ou font-face: Helvetica,
+Arial,
+sans-serif. As listas são apenas uma série de valores,
+separados por espaços ou vírgulas. */
+$animals: puma, sea-slug, egret, salamander;
+
+$animals: puma sea-slug egret salamander;
+
+$animals: "puma", "sea-slug", "egret", "salamander";
+
+/* Maps */
+
+/* As listas são muito interessantes,
+porém se limitam a uma dimensão,
+por esta razão existem os maps que adicionam dimensões às listas,
+os maps podem ser comparados aos arrays em linguagens de programação,
+pois sempre estão ligadas à associação entre chaves e valores. */
+
+$social: (facebook: #3b5998,
+    flickr: #0063db,
+    github: #4183c4,
+    googleplus: #dd4b39,
+    instagram: #517fa4,
+    linkedin: #007bb6,
+    pinterest: #cb2027,
+    soundcloud: #f60,
+    twitter: #00aced,
+    youtube: #b00);

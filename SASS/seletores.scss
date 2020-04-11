@@ -1,0 +1,48 @@
+/* Em Sass podemos utilizar mesmos seletores do CSS: de tipo,
+de classe e de id. Neste tópico veremos algumas facilidades para tornar a escrita mais rápida utilizando seletores,
+propriedades aninhadas e pseudo-elementos. */
+
+nav {
+
+    width: 100%;
+    background: #000;
+
+    ul {
+        list-style: none
+    }
+
+    li {
+        color: #fff;
+        display: inline-block;
+    }
+
+}
+
+nav {
+    font: {
+        family: "Times New Roman", Times, serif;
+        style: italic;
+        size: 30px;
+        weight: bold;
+    }
+}
+
+a {
+    color: #ffa;
+
+    &:hover {
+        color: #faf;
+    }
+}
+
+#main {
+    color: black;
+
+    a {
+        font-weight: bold;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
