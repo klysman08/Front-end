@@ -1,0 +1,72 @@
+/* Através do Sass é possível realizar os seguintes tipos de operações: operações numéricas,
+operações com cores e operações com strings. */
+
+/* Sass suporta os seguintes tipos de operações: 
+adição+
+subtração - 
+multiplicação * 
+divisão / 
+modulo % */
+
+h1 {
+    font-size: 2em + 22px; // unidades incompatíveis
+
+    font-size: 5px + 2; // 7px
+
+    font-size: 5px * 2px; // unidade inválida
+}
+
+$width: 1000px;
+$base-size: 20px;
+$line-height: 22px;
+
+p {
+    font: 10px/8px bold italic serif; // Imprime CSS
+    width: $width/2; // Divisão pois usa uma variável
+    width: round(1.5)/2; // Divisão pois usa uma função
+    height: (500px/2); // Divisão pois usa parênteses
+    margin-left: 5px + 8px/2px; // Divisão pois usa uma expressão aritimética
+    font: (italic bold 10px/8px); // Imprime um erro, pois o parênteses estão em volta de uma lista 
+    font-size: #{$base-size} / #{$line-height}; // Usa interpolção e imprime CSS 
+}
+
+$font-size: 27px;
+
+p {
+    font-size: $font-size % 2;
+}
+
+// Color Operations
+
+p {
+    color: #010203 + #040506;
+}
+
+p {
+    color: #010203 * 2;
+}
+
+p {
+    color: rgba(255, 0, 0, 0.75) + rgba(0, 255, 0, 0.75);
+}
+
+// Operações com String
+
+p {
+    cursor: e + -resize;
+}
+
+p:before {
+    content: "Teste "+ Teste;
+    font-family: sans- + "serif";
+}
+
+p:before {
+    content: "Eu tenho #{2 + 10} moedas.";
+}
+
+$value: null;
+
+p:before {
+    content: "Eu tenho #{$value} moedas.";
+}

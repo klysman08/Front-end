@@ -1,0 +1,40 @@
+p {
+    font: 10px/8px;
+    width: 500px;
+    height: 250px;
+    margin-left: 9px;
+    font-size: 20px/22px;
+}
+
+p {
+    font-size: 1px;
+}
+
+p {
+    color: #050709;
+}
+
+p {
+    color: #020406;
+}
+
+p {
+    color: rgba(255, 255, 0, 0.75);
+}
+
+p {
+    cursor: e-resize;
+}
+
+p:before {
+    content: "Teste Teste";
+    font-family: sans-serif;
+}
+
+p:before {
+    content: "Eu tenho 12 moedas.";
+}
+
+p:before {
+    content: "Eu tenho  moedas.";
+}
