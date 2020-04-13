@@ -1,0 +1,39 @@
+body{
+    background: #7a49ff;
+    font: normal 15pt Arial;
+}
+
+div {
+    padding: 20px;
+    text-align: center;
+    margin:10px;
+    left:0;
+    top:0;
+}
+
+header {
+
+    color:white;
+    text-align: center;
+
+}
+
+section {
+
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #000000
+
+
+}
+
+footer {
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}

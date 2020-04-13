@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+
+<style>
+    body {
+        background: rgb(238, 143, 0);
+        color: white;
+        font: normal 18pt Arial;
+    }
+</style>
+
+<body>
+
+    <h1>Curso de JavaScript</h1>
+    <p id="teste">Aqui vai o resultado</p>
+    <p class="teste2"><strong> Começando a usar o DOM</p></strong>
+    <div id="area">Clique aqui</div>
+
+    <script>
+        var area = window.document.getElementById('area')
+        area.addEventListener('click', clicar)
+
+        function clicar(){
+            area.style.background = 'red'
+        }
+
+        var corpo = window.document.bady
+        var p1 = window.document.getElementById('teste')
+        var p2 = window.document.querySelector('div.teste2')
+
+        area.style.background = 'blue'
+        p1.innerText = 'Modificando a variavel por javascript'
+
+        p2.style.background = 'black'
+    </script>
+
+</body>
+
+</html>
