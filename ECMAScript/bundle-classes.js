@@ -92,4 +92,4 @@ var Matematica = /*#__PURE__*/function () {
 }();
 
 MinhaLista.monstraUsuario();
-console.log(Matematica.soma(5, 3));
+console.log(Matematica.soma(50, 5));

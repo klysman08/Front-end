@@ -40,4 +40,4 @@ class Matematica {
 }
 
 MinhaLista.monstraUsuario();
-console.log(Matematica.soma(5, 3));
+console.log(Matematica.soma(50, 5));

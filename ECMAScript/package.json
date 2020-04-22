@@ -9,6 +9,6 @@
   },
 
   "scripts": {
-    "dev": "babel  ./main.js -o ./bundle.js -w"
+    "dev": "babel  ./const-let.js -o ./bundle-const-let.js -w"
   }
 }
