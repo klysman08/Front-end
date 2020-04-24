@@ -9,6 +9,6 @@
   },
 
   "scripts": {
-    "dev": "babel  ./array.js -o ./bundle-array.js -w"
+    "dev": "babel  ./desestruturação.js -o ./bundle-desestruturação.js -w"
   }
 }
