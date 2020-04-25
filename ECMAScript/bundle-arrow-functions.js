@@ -16,16 +16,16 @@ console.log(teste);
 
 function soma() {
   var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 2;
-  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 5;
+  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
   return a + b;
 }
 
 var soma2 = function soma2() {
-  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 3;
-  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 6;
-  return a + b;
+  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 2;
+  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+  return a - b;
 };
 
 console.log(soma(4));
-console.log(soma());
-console.log(soma2());
+console.log(soma(5));
+console.log(soma2(7));

@@ -5,10 +5,11 @@
   "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
     "@babel/preset-env": "^7.9.5"
   },
-
   "scripts": {
-    "dev": "babel  ./desestruturação.js -o ./bundle-desestruturação.js -w"
+    "dev": "babel  ./spread.js -o ./bundle-spread.js -w"
   }
 }

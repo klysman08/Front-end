@@ -8,8 +8,10 @@ const usuario = {
     },
 };
 
-function mostraNome ({nome, idade}){
-    console.log(nome, idade);
+function mostraNome ({nome, email}){
+    console.log(nome, email);
 }
 
 mostraNome(usuario);
+
+console.log()

@@ -12,8 +12,9 @@ var usuario = {
 
 function mostraNome(_ref) {
   var nome = _ref.nome,
-      idade = _ref.idade;
-  console.log(nome, idade);
+      email = _ref.email;
+  console.log(nome, email);
 }
 
 mostraNome(usuario);
+console.log();
